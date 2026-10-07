@@ -1,0 +1,14 @@
+# Cloudflare: que el navegador sempre comprovi si hi ha una versió nova
+# de l'app i del service worker (si no, les actualitzacions triguen a arribar)
+
+/sw.js
+  Cache-Control: no-cache
+
+/index.html
+  Cache-Control: no-cache
+
+/
+  Cache-Control: no-cache
+
+/manifest.json
+  Cache-Control: no-cache
